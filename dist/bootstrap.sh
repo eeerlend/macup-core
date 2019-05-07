@@ -97,4 +97,8 @@ if [ -d "$PWD/.tmp" ]; then
   rm -r "$PWD/.tmp"
 fi
 
+# Cleanup
+brew cleanup
+echo ''
+print_colored "MacUP: All done!" "green"
 exit 0
