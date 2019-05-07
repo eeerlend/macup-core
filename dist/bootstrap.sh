@@ -93,6 +93,8 @@ else
   fi
 fi
 
-rm -r "$PWD/.tmp"
+if [ -d "$PWD/.tmp" ]; then
+  rm -r "$PWD/.tmp"
+fi
 
 exit 0
