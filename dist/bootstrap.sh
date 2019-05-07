@@ -93,4 +93,6 @@ else
   fi
 fi
 
+rm -r "$PWD/.tmp"
+
 exit 0
