@@ -1,4 +1,4 @@
-# macup-dotfiles-icloud
+# macup-core
 
 The core of the [macup](https://github.com/eeerlend/macup) framework. Holds all core functionality and is mandatory for all macup distributions
 
