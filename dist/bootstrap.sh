@@ -87,7 +87,7 @@ else
 
         # Run the installation script for the package
         # shellcheck disable=SC1090
-        . "./dist/packages/macup-${macup_packages[i]}/run.sh"
+        bash ./dist/packages/macup-core/runpackage.sh "${macup_packages[i]}" "$macup_config_file"
       done
     fi
   fi
