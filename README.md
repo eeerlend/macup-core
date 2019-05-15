@@ -1,6 +1,6 @@
 # macup-core
 
-The core of the [macup](https://github.com/eeerlend/macup) framework. Holds all core functionality and is mandatory for all macup distributions
+The core of the [macup](https://github.com/eeerlend/macup-builder) framework. Holds all core functionality and is mandatory for all macup distributions
 
 ## Installation
 Run the following command to add it to your repo
