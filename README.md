@@ -6,12 +6,12 @@ The core of the [macup](https://github.com/eeerlend/macup-builder) framework. Ho
 Run the following command to add it to your repo
 
 ```bash
-npm install eeerlend/macup-core --save
+npm install eeerlend/macup-core
 ```
 
 ## Configuration
 
-Add packages to be installed by macup like this:
+macup modules are installed using NPM and then registered in the main config file (e.g. my.config)
 
 ```bash
 macup_packages+=(
