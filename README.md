@@ -14,7 +14,7 @@ npm install eeerlend/macup-core --save
 Add packages to be installed by macup like this:
 
 ```bash
-macup-packages+=(
+macup_packages+=(
   macup-dotfiles-icloud
   ...
 )
