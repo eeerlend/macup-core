@@ -6,16 +6,18 @@ The core of the [macup](https://github.com/eeerlend/macup-builder) framework. Ho
 Run the following command to add it to your repo
 
 ```bash
-npm install eeerlend/macup-core --save
+npm install eeerlend/macup-core
 ```
 
 ## Configuration
 
-Add packages to be installed by macup like this:
+Add packages to be installed (without the macup- prefix) in the main config file (e.g. my.config):
 
 ```bash
 macup-packages+=(
-  macup-dotfiles-icloud
+  core
+  dotfiles-icloud
+  homebrew
   ...
 )
 ```
